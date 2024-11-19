@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6D6AB012CEC7B2C00E1D510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D6AAE72CEC7B2900E1D510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D6AAEE2CEC7B2900E1D510;
+			remoteInfo = iZipApp;
+		};
+		D6D6AB0B2CEC7B2C00E1D510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D6AAE72CEC7B2900E1D510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D6AAEE2CEC7B2900E1D510;
+			remoteInfo = iZipApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D6AAEF2CEC7B2900E1D510 /* iZipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D6AB002CEC7B2C00E1D510 /* iZipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iZipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D6AB0A2CEC7B2C00E1D510 /* iZipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iZipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6D6AAF12CEC7B2900E1D510 /* iZipApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iZipApp;
+			sourceTree = "<group>";
+		};
+		D6D6AB032CEC7B2C00E1D510 /* iZipAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iZipAppTests;
+			sourceTree = "<group>";
+		};
+		D6D6AB0D2CEC7B2C00E1D510 /* iZipAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iZipAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D6AAEC2CEC7B2900E1D510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6AAFD2CEC7B2C00E1D510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6AB072CEC7B2C00E1D510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D6AAE62CEC7B2900E1D510 = {
+			isa = PBXGroup;
+			children = (
+				D6D6AAF12CEC7B2900E1D510 /* iZipApp */,
+				D6D6AB032CEC7B2C00E1D510 /* iZipAppTests */,
+				D6D6AB0D2CEC7B2C00E1D510 /* iZipAppUITests */,
+				D6D6AAF02CEC7B2900E1D510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D6AAF02CEC7B2900E1D510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6AAEF2CEC7B2900E1D510 /* iZipApp.app */,
+				D6D6AB002CEC7B2C00E1D510 /* iZipAppTests.xctest */,
+				D6D6AB0A2CEC7B2C00E1D510 /* iZipAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D6AAEE2CEC7B2900E1D510 /* iZipApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6AB142CEC7B2C00E1D510 /* Build configuration list for PBXNativeTarget "iZipApp" */;
+			buildPhases = (
+				D6D6AAEB2CEC7B2900E1D510 /* Sources */,
+				D6D6AAEC2CEC7B2900E1D510 /* Frameworks */,
+				D6D6AAED2CEC7B2900E1D510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6D6AAF12CEC7B2900E1D510 /* iZipApp */,
+			);
+			name = iZipApp;
+			packageProductDependencies = (
+			);
+			productName = iZipApp;
+			productReference = D6D6AAEF2CEC7B2900E1D510 /* iZipApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D6AAFF2CEC7B2C00E1D510 /* iZipAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6AB172CEC7B2C00E1D510 /* Build configuration list for PBXNativeTarget "iZipAppTests" */;
+			buildPhases = (
+				D6D6AAFC2CEC7B2C00E1D510 /* Sources */,
+				D6D6AAFD2CEC7B2C00E1D510 /* Frameworks */,
+				D6D6AAFE2CEC7B2C00E1D510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D6AB022CEC7B2C00E1D510 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D6AB032CEC7B2C00E1D510 /* iZipAppTests */,
+			);
+			name = iZipAppTests;
+			packageProductDependencies = (
+			);
+			productName = iZipAppTests;
+			productReference = D6D6AB002CEC7B2C00E1D510 /* iZipAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6D6AB092CEC7B2C00E1D510 /* iZipAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6AB1A2CEC7B2C00E1D510 /* Build configuration list for PBXNativeTarget "iZipAppUITests" */;
+			buildPhases = (
+				D6D6AB062CEC7B2C00E1D510 /* Sources */,
+				D6D6AB072CEC7B2C00E1D510 /* Frameworks */,
+				D6D6AB082CEC7B2C00E1D510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D6AB0C2CEC7B2C00E1D510 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D6AB0D2CEC7B2C00E1D510 /* iZipAppUITests */,
+			);
+			name = iZipAppUITests;
+			packageProductDependencies = (
+			);
+			productName = iZipAppUITests;
+			productReference = D6D6AB0A2CEC7B2C00E1D510 /* iZipAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D6AAE72CEC7B2900E1D510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D6D6AAEE2CEC7B2900E1D510 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D6D6AAFF2CEC7B2C00E1D510 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6D6AAEE2CEC7B2900E1D510;
+					};
+					D6D6AB092CEC7B2C00E1D510 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6D6AAEE2CEC7B2900E1D510;
+					};
+				};
+			};
+			buildConfigurationList = D6D6AAEA2CEC7B2900E1D510 /* Build configuration list for PBXProject "iZipApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D6AAE62CEC7B2900E1D510;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6D6AAF02CEC7B2900E1D510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D6AAEE2CEC7B2900E1D510 /* iZipApp */,
+				D6D6AAFF2CEC7B2C00E1D510 /* iZipAppTests */,
+				D6D6AB092CEC7B2C00E1D510 /* iZipAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D6AAED2CEC7B2900E1D510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6AAFE2CEC7B2C00E1D510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6AB082CEC7B2C00E1D510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D6AAEB2CEC7B2900E1D510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6AAFC2CEC7B2C00E1D510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6AB062CEC7B2C00E1D510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D6AB022CEC7B2C00E1D510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D6AAEE2CEC7B2900E1D510 /* iZipApp */;
+			targetProxy = D6D6AB012CEC7B2C00E1D510 /* PBXContainerItemProxy */;
+		};
+		D6D6AB0C2CEC7B2C00E1D510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D6AAEE2CEC7B2900E1D510 /* iZipApp */;
+			targetProxy = D6D6AB0B2CEC7B2C00E1D510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6D6AB122CEC7B2C00E1D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D6AB132CEC7B2C00E1D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D6D6AB152CEC7B2C00E1D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iZipApp/iZipApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iZipApp/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.iZipApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6D6AB162CEC7B2C00E1D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iZipApp/iZipApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iZipApp/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.iZipApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6D6AB182CEC7B2C00E1D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.iZipAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iZipApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iZipApp";
+			};
+			name = Debug;
+		};
+		D6D6AB192CEC7B2C00E1D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.iZipAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iZipApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iZipApp";
+			};
+			name = Release;
+		};
+		D6D6AB1B2CEC7B2C00E1D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.iZipAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iZipApp;
+			};
+			name = Debug;
+		};
+		D6D6AB1C2CEC7B2C00E1D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.iZipAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iZipApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D6AAEA2CEC7B2900E1D510 /* Build configuration list for PBXProject "iZipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6AB122CEC7B2C00E1D510 /* Debug */,
+				D6D6AB132CEC7B2C00E1D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6AB142CEC7B2C00E1D510 /* Build configuration list for PBXNativeTarget "iZipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6AB152CEC7B2C00E1D510 /* Debug */,
+				D6D6AB162CEC7B2C00E1D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6AB172CEC7B2C00E1D510 /* Build configuration list for PBXNativeTarget "iZipAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6AB182CEC7B2C00E1D510 /* Debug */,
+				D6D6AB192CEC7B2C00E1D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6AB1A2CEC7B2C00E1D510 /* Build configuration list for PBXNativeTarget "iZipAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6AB1B2CEC7B2C00E1D510 /* Debug */,
+				D6D6AB1C2CEC7B2C00E1D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D6AAE72CEC7B2900E1D510 /* Project object */;
+}
