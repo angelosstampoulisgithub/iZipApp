@@ -8,95 +8,46 @@
 import SwiftUI
 import Foundation
 struct ContentView: View {
-    @State var files:[String]
-    @State var folder:String
-    @State var zipFile:String
-    @State var isPresented:Bool
-    @State var isSelected:Bool
-    let helper = Helper()
-    var body: some View {
-        VStack{
-            HStack {
-                TextField("Enter path for a folder", text: $folder).frame(width:300)
-                Button {
-                    do{
-                        files = try FileManager.default.contentsOfDirectory(atPath:folder)
-                        
-                    }catch{
-                        debugPrint("something went wrong!!!!"+error.localizedDescription)
-                    }
-                } label: {
-                    Text("List files from Folder")
-                }
-                TextField("Enter path for a Zip File", text: $zipFile).frame(width:300)
-                Button {
-                    if isSelected{
-                        let directoryURL = URL(fileURLWithPath:helper.getTempDirectory())
-                        let zipURL = URL(fileURLWithPath: zipFile)
-                        var coordinatorError: NSError?
-                        let coordinator = NSFileCoordinator()
-                        coordinator.coordinate(
-                            readingItemAt:directoryURL,
-                            options: .forUploading,
-                            error: &coordinatorError
-                        ) { zipCreatedURL in
-                            do {
-                                try FileManager.default.moveItem(at: zipCreatedURL, to: zipURL)
-                                isPresented = true
-                             } catch {
-                                debugPrint("error=",error.localizedDescription)
-                            }
-                        }
-                       
-                    }else{
-                        let directoryURL = URL(fileURLWithPath:folder)
-                        let zipURL = URL(fileURLWithPath: zipFile)
-                        var coordinatorError: NSError?
-                        let coordinator = NSFileCoordinator()
-                        coordinator.coordinate(
-                            readingItemAt:directoryURL,
-                            options: .forUploading,
-                            error: &coordinatorError
-                        ) { zipCreatedURL in
-                            do {
-                                try FileManager.default.moveItem(at: zipCreatedURL, to: zipURL)
-                                isPresented = true
-                             } catch {
-                                debugPrint("error=",error.localizedDescription)
-                            }
-                        }
-                       
-                    }
-   
 
-                } label: {
-                    Text("Create Zip File")
-                }.alert(isPresented: $isPresented) {
-                    Alert(title:Text("Information Message"),message:Text("Zip file is created"))
+    var body: some View {
+        NavigationStack{
+            ZStack{
+                VStack{
+                    Image(.main).resizable().frame(width:240,height:235,alignment: .topLeading)
+                } .frame(maxWidth: .infinity,maxHeight: 245,alignment: .topLeading)
+                VStack(alignment: .trailing, spacing: 20){
+                    NavigationLink {
+                        CreateZipFile(files: [], folder: "", zipFile: "", isPresented: false, isSelected: false)
+                    } label: {
+                        Text("Zip File").frame(width:150,height:60)
+                    }.padding()
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
+                    NavigationLink {
+                        UnzipFile(files: [], folder: "", zipDestination: "", isPresented: false)
+                    } label: {
+                        Text("Unzip File").frame(width:150,height:60)
+                    }.padding()
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
+                }.frame(width:450,height:205,alignment:.topTrailing)
+                ZStack{
+                    VStack{
+                        Text("Copyright (c) 2024 Angelos Staboulis").frame(width:300,height:60,alignment: .bottom)
+
+                    }.frame(maxWidth: .infinity,maxHeight: 285,alignment: .bottom)
                 }
             }
-            VStack{
-                Text("Files from Folder " + folder)
-                List(files,id:\.self){item in
-                    Text(item).onTapGesture {
-                        do{
-                            try FileManager.default.copyItem(at: URL(filePath:folder+"/"+item), to:  URL(filePath:helper.getTempDirectory()+"/"+item))
-                            isSelected.toggle()
-                        }catch{
-                            debugPrint("something went wrong"+error.localizedDescription)
-                        }
-                    }
-                }
-            }.onAppear {
-                helper.createTempDirectory()
-            }.onDisappear {
-                helper.removeTempDirectory()
-            }
+          
         }
         
     }
 }
 
 #Preview {
-    ContentView(files: [], folder: "", zipFile: "", isPresented: false, isSelected: false)
+    ContentView()
 }

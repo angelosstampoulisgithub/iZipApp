@@ -29,4 +29,24 @@ class Helper{
             debugPrint("something went wrong!!!")
         }
     }
+    func findFiles(path:String)->[String]{
+            var files:[String] = []
+            do{
+                files =  try FileManager.default.contentsOfDirectory(atPath: path+"/")
+                var attributes:[FileAttributeKey:Any] = [:]
+                for file in files{
+                     attributes =  try FileManager.default.attributesOfItem(atPath: path + "/" + file)
+                    let getType = String(describing:attributes[.type] as! FileAttributeType)
+                    if  getType.contains("NSFileTypeDirectory"){
+                        files.append(contentsOf:findFiles(path: path + "/" + file))
+                        break
+                    }
+                    
+                }
+                
+            }catch{
+                debugPrint("something went wrong!!!"+error.localizedDescription)
+        }
+        return files
+    }
 }
