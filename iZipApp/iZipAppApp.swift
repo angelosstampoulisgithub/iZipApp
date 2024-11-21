@@ -11,7 +11,7 @@ import SwiftUI
 struct iZipAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(files: [], folder: "", zipFile: "",isPresented: false)
+            ContentView(files: [], folder: "", zipFile: "",isPresented: false, isSelected: false)
                 .windowResizeBehavior(.disabled)
         }
     }
