@@ -49,4 +49,21 @@ class Helper{
         }
         return files
     }
+    func createZipFile(folder:String,zipFile:String){
+        let directoryURL = URL(fileURLWithPath:folder)
+        let zipURL = URL(fileURLWithPath: zipFile)
+        var coordinatorError: NSError?
+        let coordinator = NSFileCoordinator()
+        coordinator.coordinate(
+            readingItemAt:directoryURL,
+            options: .forUploading,
+            error: &coordinatorError
+        ) { zipCreatedURL in
+            do {
+                try FileManager.default.moveItem(at: zipCreatedURL, to: zipURL)
+            } catch {
+                debugPrint("error=",error.localizedDescription)
+            }
+        }
+    }
 }
