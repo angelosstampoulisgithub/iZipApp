@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D685113F2CEF733B0022BE87 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = D685113E2CEF733B0022BE87 /* ZipArchive */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		D6D6AB012CEC7B2C00E1D510 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D685113F2CEF733B0022BE87 /* ZipArchive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +112,6 @@
 			);
 			name = iZipApp;
 			packageProductDependencies = (
-				D685113E2CEF733B0022BE87 /* ZipArchive */,
 			);
 			productName = iZipApp;
 			productReference = D6D6AAEF2CEC7B2900E1D510 /* iZipApp.app */;
@@ -202,7 +196,6 @@
 			mainGroup = D6D6AAE62CEC7B2900E1D510;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D685113D2CEF733B0022BE87 /* XCRemoteSwiftPackageReference "ZipArchive" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D6D6AAF02CEC7B2900E1D510 /* Products */;
@@ -558,25 +551,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D685113D2CEF733B0022BE87 /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ZipArchive/ZipArchive";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D685113E2CEF733B0022BE87 /* ZipArchive */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D685113D2CEF733B0022BE87 /* XCRemoteSwiftPackageReference "ZipArchive" */;
-			productName = ZipArchive;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6D6AAE72CEC7B2900E1D510 /* Project object */;
 }
